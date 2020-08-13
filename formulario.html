@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <title>Mi Primer Formulario</title>
+  </head>
+  <body>
+    <form action="#" method="post">
+      <fieldset>
+        <label for="nombre">
+          Nombre
+          <input type="text" name="nombre" id="nombre" value=""/>
+        </label>
+      </fieldset>
+      <fieldset>
+        <label for="apellido">
+          Apellido
+          <input type="text" name="apellido" id="apellido" value=""/>
+        </label>
+      </fieldset>
+      <fieldset>
+        <label for="email">
+          Correo
+          <input type="email" name="email" id="email" value=""/>
+        </label>
+      </fieldset>
+      <fieldset>
+        <label>
+          Color
+          <select name="color">
+            <option value="" disabled selected>Selecciona un color</option>
+            <option value="red">Rojo</option>
+            <option value="orange">Naranja</option>
+            <option value="yellow">Amarillo</option>
+          </select>
+        </label>
+      </fieldset>
+      <fieldset>
+        <label>
+          <input type="radio" name="talla" value="S" />
+          Talla S
+        </label>
+        <label>
+          <input type="radio" name="talla" value="M" checked />
+          Talla M
+        </label>
+        <label>
+          <input type="radio" name="talla" value="L" />
+          Talla L
+        </label>
+      </fieldset>
+      <fieldset>
+        <label>
+          Comentario
+          <textarea name="comentario" rows="5" cols="40"></textarea>
+        </label>
+      </fieldset>
+      <fieldset>
+        <input type="submit" value="Pedir" />
+      </fieldset>
+      <span>Copyrigth 2020</span>
+    </form>
+  </body>
+</html>
